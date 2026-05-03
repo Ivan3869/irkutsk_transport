@@ -4,23 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Трамвай | Общественный транспорт Иркутска</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="page" style="margin: 0; background: #f4f4f4; color: #222222; font-family: Arial, sans-serif;">
-  <div class="wrapper" style="max-width: 920px; margin: 0 auto; padding: 24px;">
-    <header class="header" style="text-align: center; margin-bottom: 24px;">
-      <p style="margin: 0 0 12px;">Сайт для учебного проекта по информатике</p>
-      <nav class="menu" style="margin-bottom: 16px;">
-        <a class="menu-link" href="index.html" style="margin: 0 8px; color: #0066cc;">Главная</a>
-        <a class="menu-link active" href="tram.html" style="margin: 0 8px; color: #222222; font-weight: bold; text-decoration: none;">Трамвай</a>
-        <a class="menu-link" href="trolleybus.html" style="margin: 0 8px; color: #0066cc;">Троллейбус</a>
-        <a class="menu-link" href="bus.html" style="margin: 0 8px; color: #0066cc;">Автобус</a>
-        <a class="menu-link" href="marshrutka.html" style="margin: 0 8px; color: #0066cc;">Маршрутное такси</a>
+<body class="page">
+  <div class="wrapper">
+    <header class="header">
+      <p class="header-note">Сайт для учебного проекта по информатике</p>
+      <nav class="menu">
+        <a class="menu-link" href="index.html">Главная</a>
+        <a class="menu-link active" href="tram.html">Трамвай</a>
+        <a class="menu-link" href="trolleybus.html">Троллейбус</a>
+        <a class="menu-link" href="bus.html">Автобус</a>
+        <a class="menu-link" href="marshrutka.html">Маршрутное такси</a>
       </nav>
-      <h1 style="margin: 0;">Трамвай</h1>
+      <h1 class="page-title">Трамвай</h1>
     </header>
 
-    <main class="content" style="background: #ffffff; padding: 20px; border: 1px solid #d8d8d8;">
-      <img class="image" src="images/tram.jpg" alt="Трамвай" style="display: block; width: 100%; max-width: 700px; margin: 0 auto 20px;">
+    <main class="content panel">
+      <img class="image page-image" src="images/tram.jpg" alt="Трамвай">
 
       <section>
         <h2>Описание</h2>
@@ -43,20 +44,20 @@
 
       <section>
         <h2>Плюсы и минусы</h2>
-        <table class="table" style="width: 100%; border-collapse: collapse;">
+        <table class="table">
           <tr>
-            <th style="border: 1px solid #999999; padding: 10px; background: #eeeeee;">Плюсы</th>
-            <th style="border: 1px solid #999999; padding: 10px; background: #eeeeee;">Минусы</th>
+            <th>Плюсы</th>
+            <th>Минусы</th>
           </tr>
           <tr>
-            <td style="border: 1px solid #999999; padding: 10px; vertical-align: top;">
+            <td>
               <ul>
                 <li>вместительный;</li>
                 <li>не загрязняет воздух выхлопами;</li>
                 <li>удобен в часы пик.</li>
               </ul>
             </td>
-            <td style="border: 1px solid #999999; padding: 10px; vertical-align: top;">
+            <td>
               <ul>
                 <li>не может свернуть с рельсов;</li>
                 <li>зависит от состояния путей;</li>
@@ -67,13 +68,13 @@
         </table>
       </section>
 
-      <p style="margin-top: 20px; text-align: center;">
-        <a href="index.html">На главную</a>
+      <p class="back-row">
+        <a class="back-link" href="index.html">На главную</a>
       </p>
     </main>
 
-    <footer class="footer" style="text-align: center; margin-top: 24px; padding: 18px; background: #ffffff; border: 1px solid #d8d8d8;">
-      <p style="margin: 0;">Автор: студент 1 курса, 2026 год</p>
+    <footer class="footer">
+      <p>Автор: студент 1 курса, 2026 год</p>
     </footer>
   </div>
 </body>
