@@ -16,6 +16,8 @@ a {
   padding: 24px 16px 40px;
 }
 
+h2,
+h3,
 .intro h2 {
   text-align: center;
 }
@@ -90,6 +92,13 @@ a {
   margin: 0 auto 20px;
 }
 
+.page-image {
+  max-width: 720px;
+  max-height: 360px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+}
+
 .section-center {
   margin-top: 0;
   text-align: center;
@@ -135,6 +144,27 @@ a {
   margin-bottom: 10px;
 }
 
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.info-table th,
+.info-table td {
+  border: 1px solid #aeb8c5;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.info-table th {
+  background: #e7edf5;
+  text-align: center;
+}
+
+.back-row {
+  text-align: center;
+}
 
 .footer {
   padding: 18px 20px;
